@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script>
+		function displayAbout(){
+			var mydiv=document.getElementById("about");
+			mydiv.hidden=!mydiv.hidden;
+		}
+	</script>
+    <header>
+      
+		<h1>Тестовое задание</h1>
+
+    </header>
+    <main>
+		<div class="foto_div" >
+			
+		</div>
+		<div class="info_div">
+			<h2>Сафронов Андрей</h2>
+			<b>Адрес:</b> Белый Хутор </br>
+			<b>Опыт работы:</b> 6 лет</br>
+			<b>Телефон:</b> +7 (905) 83-35-729
+		</div>
+		<div class="skills_div">
+			<b>Владение языками:</b>
+			<table>
+				<thead>
+					<th>  </th>
+					<th>Java</th>
+					<th>JavaScript</th>
+					<th>C++</th>
+					<th>C#</th>
+					<th>VB.NET</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Отличное знание</td>
+						<td>N</td>
+						<td>N</td>
+						<td>N</td>
+						<td>N</td>
+						<td>N</td>
+					</tr>
+					<tr>
+						<td>Хорошее знание</td>
+						<td>N</td>
+						<td>N</td>
+						<td>Y</td>
+						<td>Y</td>
+						<td>Y</td>
+					</tr>
+					<tr>
+						<td>Среднее знание</td>
+						<td>Y</td>
+						<td>N</td>
+						<td>Y</td>
+						<td>Y</td>
+						<td>Y</td>
+					</tr>
+					<tr>
+						<td>Плохое знание</td>
+						<td>Y</td>
+						<td>Y</td>
+						<td>Y</td>
+						<td>Y</td>
+						<td>Y</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="input_div">
+		<div class="_div">
+			<label for="tel1">Телефон:</label>
+			<input type="tel" name="phone" id="tel1" placeholder="+7 (999) 999-99-99" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+		</div>
+		<div class="_div">
+			<label for="name1">Имя:</label>
+			<input type="text" name="name" id="name1" placeholder="Андрей">
+		</div>
+		</div>
+    </main>
+    <footer>
+      <label onclick="displayAbout()" class="about_label">Нажми сюда чтобы узнать больше обо мне</label>
+	  <div class="about_div" id="about" hidden="true">
+		<p>Образования я получил в ЮУрГУ, год окончания 2008, Факультет ЭиУ, Кафедра Информатики, специальность - информатик-экономист. После окончания работал в разных банках 
+		программистом. Затем сменил профессию на продажи информационных продуктов. Сначала решения в области экономической безопасности, потом информационная безопасность. Сейчас 
+		в свободное время изучаю Java - хочу заняться Android и web-разработкой.
+			
+		</p>
+	  </div>
+    </footer>
+  </body>
+</html>

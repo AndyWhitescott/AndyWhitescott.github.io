@@ -1,0 +1,104 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  
+ 
+}
+
+h1 {
+  line-height: normal;
+  text-align: center;
+}
+h2{
+	font-size: 30px;
+	margin-top: 5px;
+}
+h3{
+	font-size:20px;
+	padding-top: 0px;
+}
+table{
+	border-spacing: 0;
+	border: 1px solid black;
+	/*border: 2px solid black;*/
+	
+}
+th{
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	/*height: 5px;*/
+	padding: 0;
+}
+
+td{
+	border: 0.5px solid black;
+	text-align:center;
+}
+tbody tr td:nth-child(1){
+	width: 300px;
+	/*background-color: red;*/
+	text-align:left;
+	padding-left: 20px;
+}
+label{
+	display: block;
+}
+input{
+	padding-left:10px;
+}
+.foto_div{
+	margin: 10px;
+	float:left;
+	height: 300px;
+	width: 300px;
+
+	background-image: url("avatar.jpg");
+	background-size: cover;
+	transform: rotate(-90deg);
+}
+.info_div{
+	margin: 10px;
+	float: left;
+	height: 300px;
+	width: 500px;
+	
+	font-family: Times new roman;
+	line-height: 2;
+}
+.skills_div{
+	padding-top: 0;
+	clear: both;
+	margin: 10px;
+	height: auto;
+	width: 100%;
+	
+}
+.input_div{
+	margin: 10px;
+	/*height: 200px;*/
+	width: 200px;
+	
+	width: 800px;
+	
+}
+._div{
+	display: inline-block;
+	margin-left: 50px;
+}
+input{
+	width: 300px;
+}
+.about_div{
+	width:800px;
+	text-align: justify;
+}
+.about_label{
+	font-size: 24px;
+	font-style: bold;
+	padding-left: 50px;
+	font-family: arial;
+	margin-bottom: 30px;
+}
